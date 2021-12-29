@@ -6,6 +6,7 @@ import FeedbackList from './components/FeedbackList';
 import FeedbackStats from './components/FeedbackStats';
 import Header from './components/Header';
 import FeedbackData from './data/feedbackData';
+import AboutIconLink from './components/AboutIconLink';
 import AboutPage from './pages/AboutPage';
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
 
           <Route path='/about' element={<AboutPage />} />
         </Routes>
+        <AboutIconLink />
       </div>
     </Router>
   );
